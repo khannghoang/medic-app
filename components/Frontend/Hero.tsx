@@ -7,7 +7,7 @@ const Hero = () => {
   const TEXTS = ['Acupuncture', 'Massage', 'Chiropractor'];
     //"Dental", "Cosmetic", "Dietitian", "Occupational", "Therapist", " Acupuncturist"];
   return (
-    <div className="bg-blue-950 mt-[160px]">
+    <div className="bg-blue-950 mt-[160px] min-h-screen pt-16">
         <div className="relative pb-[110px] pt-[50px] dark:bg-dark lg:pt-[50px] max-w-6xl mx-auto">
     <div className="container">
       <div className="-mx-4 flex flex-wrap">
@@ -48,7 +48,7 @@ const Hero = () => {
               </li>
             </ul>
           <div className="py-4 flex gap-4 pt-8 ">
-            <div className="flex-col flex items-center justify-center">
+            <div className="flex flex-col items-center justify-center">
               <span className="font-bold text-gray-50">600</span>
               <span className="text-gray-400 text-sm">Active 
                 Specialists</span>

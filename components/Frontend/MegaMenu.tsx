@@ -123,11 +123,11 @@ export default function MegaMenu() {
         megaMenu.map((item, i) => {
           return(
           <NavigationMenuItem key={i}>
-          <NavigationMenuTrigger className="!bg-white hover:!bg-gray-300 transition-colors duration-200 rounded-1xl rounded text-gray-600">{item.title}</NavigationMenuTrigger>
+          <NavigationMenuTrigger className="">{item.title}</NavigationMenuTrigger>
           <NavigationMenuContent >
             <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] bg-white ">
               {item.services.map((component) => (
-                <ListItem className=" hover:bg-gray-100 "
+                <ListItem className=" "
                   key={component.title}
                   title={component.title}
                   href={`/services${component.slug}`}
