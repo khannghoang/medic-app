@@ -47,7 +47,18 @@ const Hero = () => {
                 </a>
               </li>
             </ul>
-          
+          <div className="py-4 flex gap-4 pt-8 ">
+            <div className="flex-col flex items-center justify-center">
+              <span className="font-bold text-gray-50">600</span>
+              <span className="text-gray-400 text-sm">Active 
+                Specialists</span>
+            </div>
+            <div className="flex-col flex items-center justify-center">
+              <span className="font-bold text-gray-50">1800</span>
+              <span className="text-gray-400 text-sm">Active 
+                Patients</span>
+            </div>
+          </div>
           </div>
         </div>
         <div className="hidden px-4 lg:block lg:w-1/12"></div>
